@@ -1,5 +1,5 @@
 # deskerizer
-NeoPixel multi-mode desk lamp using Arduino.
+NeoPixel Altoid tin multi-mode desk lamp using Arduino.
 
 ![IMG_4941](https://github.com/jpsullivan234/deskerizer/assets/92565104/0e99e306-a022-400a-996e-3e1bd6fcf210)
 
