@@ -1,2 +1,13 @@
 # deskerizer
-NeoPixel multi-mode desk lamp using Arduino
+NeoPixel multi-mode desk lamp using Arduino.
+
+This is a project I made back in September 2023. Here's the jist:
+  - Controlled by an Arduino Pro Mini (3v 8MHz)
+  - Powered by a standard USB type C port
+  - Everything is contained inside an Altoids can
+  - 3 buttons: On/Off/Mode button, brightness up, brightness down
+  - Programmed with 6 modes but you can add as many as you'd like using my code
+  - The modes include solid colors, fade, and multi-color
+  - Every function in the code is non-ubstructing, meaning that you can press a button and cancel the fade at any point,     for example
+
+Feel free to clone this repository and try my code. The code was implemented using PlatformIO, but with some minor modifications it should work in the Arduino IDE as well. There are some small bugs that I haven't fixed yet, like the modes occasionally skip when you press the mode button because of a debounce flaw.
