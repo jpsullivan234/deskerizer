@@ -248,7 +248,7 @@ void solid( uint8_t r, uint8_t g, uint8_t b, bool style){
 
 /* Switch to the next mode. Input: style(1 = animate, 0 = dont) */
 void switchMode(bool style){
-  if (mode++ == 6) mode = 0; // 5 modes; wraps around at 5 inclusive
+  if (mode++ == 5) mode = 0; // 5 modes; wraps around at 5 inclusive
   debug("mode: "); debugln(mode);
 
   switch (mode){
@@ -258,13 +258,6 @@ void switchMode(bool style){
     case 3: solid( 255,0,0,   style); break;    // mode 3: solid red
     case 4: solid( 0,255,0,   style); break;    // mode 4: solid green
     case 5: solid( 0,0,255,   style); break;    // mode 5: solid blue
-    case 6: 
-            for (long i = 0; i < 60; i++){
-              strip.setPixelColor(i,strip.ColorHSV(1092*i, 255, 255));
-              debug("Pixel: "); debug(i); debug(" Color:"); debugln(1092*i);
-              strip.show();
-            }
-    break;
   }
 }
 
