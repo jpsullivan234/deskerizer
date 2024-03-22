@@ -15,4 +15,8 @@ This is a project I made back in September 2023. **Here's the jist:**
 Feel free to clone this repository and try my code. The code was implemented using PlatformIO, but with some minor modifications it should work in the Arduino IDE as well. There are some small bugs that I haven't fixed yet, like the modes occasionally skip when you press the mode button because of a debounce flaw.
 
 **Circuit:**
-View the circuit schematic here: 
+View the circuit schematic [here](https://github.com/jpsullivan234/deskerizer/blob/75a3da9ff55c3819afbcfb51c352b4ee03d1c138/DeskerizerSchematic.jpg)
+
+**Code:**
+To run the code, you'll need PlatformIo installed. I use the VScode extension. Change the hardware settings to match your design as shown below.
+
