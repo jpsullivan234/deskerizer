@@ -18,5 +18,7 @@ Feel free to clone this repository and try my code. The code was implemented usi
 View the circuit schematic [here](https://github.com/jpsullivan234/deskerizer/blob/75a3da9ff55c3819afbcfb51c352b4ee03d1c138/DeskerizerSchematic.jpg)
 
 **Code:**
-To run the code, you'll need PlatformIo installed. I use the VScode extension. Change the hardware settings to match your design as shown below.
+To run the code, you'll need PlatformIo installed. I use the VScode extension. Change the hardware settings to match your design as shown [below in main.cpp](https://github.com/jpsullivan234/deskerizer/blob/a386304b821b48f04237442e376cc00785dd5384/src/main.cpp#L33-L38)
+
+
 
