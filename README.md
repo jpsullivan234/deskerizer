@@ -18,8 +18,14 @@ Feel free to clone this repository and try my code. The code was implemented usi
 View the circuit schematic [here](https://github.com/jpsullivan234/deskerizer/blob/75a3da9ff55c3819afbcfb51c352b4ee03d1c138/DeskerizerSchematic.jpg)
 
 **Code:**
-To run the code, you'll need PlatformIo installed. I use the VScode extension. Change the hardware settings to match your design as shown below.
-![hardwareSettings](https://github.com/jpsullivan234/deskerizer/blob/a386304b821b48f04237442e376cc00785dd5384/src/main.cpp?plain=1#L33-L38)
+To run the code, you'll need PlatformIo installed. I use the VScode extension. Change the hardware settings to match your design as shown below [(from this file).](https://github.com/jpsullivan234/deskerizer/blob/f3788d3a5447a76e29e0b0093865ea8c205f2d7d/src/main.cpp)
+
+    // Hardware defs: 
+    #define mButton 2
+    #define uButton 3
+    #define dButton 4
+    #define LED_PIN 12
+    #define LED_COUNT 60
 
 
 
