@@ -27,5 +27,13 @@ To run the code, you'll need PlatformIo installed. I use the VScode extension. C
     #define LED_PIN 12
     #define LED_COUNT 60
 
+Hit upload and if you did it right it'll work. 
+
+**More Pictures:**
+
+<img src="https://github.com/jpsullivan234/deskerizer/assets/92565104/016c1317-d104-4d2d-8d8b-1cd88fb30119" alt="IMG_4947" width="50%"/>
+
+<img src="https://github.com/jpsullivan234/deskerizer/assets/92565104/088033b3-f2cd-4cc7-950f-b5e7b732eadd" alt="IMG_4945" width="50%"/>
+
 
 
