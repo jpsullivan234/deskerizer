@@ -3,7 +3,7 @@ NeoPixel Altoid tin multi-mode desk lamp using Arduino.
 
 ![IMG_4941](https://github.com/jpsullivan234/deskerizer/assets/92565104/0e99e306-a022-400a-996e-3e1bd6fcf210)
 
-This is a project I made back in September 2023. **Here's the jist:**
+This is a project I made back in September 2023. **Here's the gist:**
   - Controlled by an Arduino Pro Mini (3v 8MHz)
   - Powered by a standard USB type C port
   - Everything is contained inside an Altoids can
